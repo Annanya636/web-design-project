@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website Search Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .search-container {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 15px 20px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+
+        .search-container button {
+            background-color: #881db9;
+            color: #fff;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-container button:hover {
+            background-color: #83142c;
+        }
+
+        .search-container button i {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" placeholder="Search for songs, artists, or albums...">
+        <button type="submit">
+            <i class="fas fa-search"></i> Search
+        </button>
+    </div>
+
+    <!-- Font Awesome for the search icon -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
